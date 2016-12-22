@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "XmlShortcuts", "src\XmlShortcuts\XmlShortcuts.xproj", "{7410E866-0DF3-4106-8F3F-3E89FEB46478}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "XmlShortcuts.test", "test\XmlShortcuts.test\XmlShortcuts.test.xproj", "{B48687A3-D616-408E-8C2F-FAA372451B5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E9C17FB2-4859-4A18-BA5E-87DF838AB72F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,16 @@ Global
 		{7410E866-0DF3-4106-8F3F-3E89FEB46478}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7410E866-0DF3-4106-8F3F-3E89FEB46478}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7410E866-0DF3-4106-8F3F-3E89FEB46478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48687A3-D616-408E-8C2F-FAA372451B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48687A3-D616-408E-8C2F-FAA372451B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48687A3-D616-408E-8C2F-FAA372451B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48687A3-D616-408E-8C2F-FAA372451B5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7410E866-0DF3-4106-8F3F-3E89FEB46478} = {48483599-91C6-46CA-A9CD-EA87EFB8BACD}
+		{B48687A3-D616-408E-8C2F-FAA372451B5F} = {E9C17FB2-4859-4A18-BA5E-87DF838AB72F}
 	EndGlobalSection
 EndGlobal
