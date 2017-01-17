@@ -19,5 +19,17 @@ namespace XmlShortcuts.Extensions
             long result;
             return long.TryParse(x.ValueOf(name), style, provider, out result) ? result : default(long?);
         }
+
+        public static int? IntValueOf(this XElement x, string name)
+        {
+            int result;
+            return int.TryParse(x.ValueOf(name), out result) ? result : default(int?);
+        }
+
+        public static int? IntValueOf(this XElement x, string name, NumberStyles style, IFormatProvider provider)
+        {
+            int result;
+            return int.TryParse(x.ValueOf(name), style, provider, out result) ? result : default(int?);
+        }
     }
 }
