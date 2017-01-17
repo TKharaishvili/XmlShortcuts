@@ -31,5 +31,17 @@ namespace XmlShortcuts.Extensions
             int result;
             return int.TryParse(x.ValueOf(name), style, provider, out result) ? result : default(int?);
         }
+
+        public static short? ShortValueOf(this XElement x, string name)
+        {
+            short result;
+            return short.TryParse(x.ValueOf(name), out result) ? result : default(short?);
+        }
+
+        public static short? ShortValueOf(this XElement x, string name, NumberStyles style, IFormatProvider provider)
+        {
+            short result;
+            return short.TryParse(x.ValueOf(name), style, provider, out result) ? result : default(short?);
+        }
     }
 }
